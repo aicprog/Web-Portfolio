@@ -8,18 +8,6 @@ import { VscFoldDown } from 'react-icons/vsc';
 const Header = () => {
 	return (
 		<header>
-			<ul className="background">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
 			<div className="container header-container">
 				<h5>Hello I'm</h5>
 				<h1>Adriany Cocom</h1>

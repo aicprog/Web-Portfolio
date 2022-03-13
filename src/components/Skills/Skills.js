@@ -1,11 +1,8 @@
-import React from 'react'
-import './Skills.css'
-
+import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
-  return (
-    <div>Skills</div>
-  )
-}
+	return <section id="skills">Skills</section>;
+};
 
-export default Skills
+export default Skills;

@@ -1,11 +1,8 @@
-import React from 'react'
-import './Testimonials.css'
-
+import React from 'react';
+import './Testimonials.css';
 
 const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+	return <section id="testimonials">Testimonials</section>;
+};
 
-export default Testimonials
+export default Testimonials;

@@ -9,11 +9,22 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
-
 function App() {
 	return (
 		<div className="App">
-			<Header/>
+			<ul className="background">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<Header />
 			<Navbar />
 			<About />
 			<Experience />
