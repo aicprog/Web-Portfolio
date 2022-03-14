@@ -20,14 +20,14 @@ const Experience = () => {
 							<DiHtml5 className="experience-details-icon" />
 							<div>
 								<h4>HTML5</h4>
-								<small className="text-light">3 Years</small>
+								<small className="text-light">2 Years</small>
 							</div>
 						</article>
 						<article className="experience-details">
 							<DiCss3 className="experience-details-icon" />
 							<div>
 								<h4>CSS3</h4>
-								<small className="text-light">3 Years</small>
+								<small className="text-light">2 Years</small>
 							</div>
 						</article>
 						<article className="experience-details">
