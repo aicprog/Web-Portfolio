@@ -33,7 +33,7 @@
 	left: 0;
 	margin: 0;
 	padding: 0;
-	background: #4e54c8;
+	background: var(--color-bg);
 	overflow: hidden;
 	z-index: -10000;
 }

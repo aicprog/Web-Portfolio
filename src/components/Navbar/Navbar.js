@@ -21,14 +21,14 @@ const Navbar = () => {
 			case 'experience':
 				setActiveNav('experience');
 				break;
-			case 'skills':
-				setActiveNav('skills');
-				break;
 			case 'projects':
 				setActiveNav('projects');
 				break;
-			case 'contacts':
-				setActiveNav('contacts');
+			case 'certificates':
+				setActiveNav('certificates');
+				break;
+			case 'contact':
+				setActiveNav('contact');
 				break;
 
 			default:
@@ -56,19 +56,19 @@ const Navbar = () => {
 				className={activeNav === 'experience' && 'active'}
 				onClick={() => handleClick('experience')}
 			>
-				<BiBook />
-			</a>
-			<a
-				href="#skills"
-				className={activeNav === 'skills' && 'active'}
-				onClick={() => handleClick('skills')}
-			>
 				<MdChecklistRtl />
 			</a>
 			<a href="#projects" className={activeNav === 'projects' && 'active'}>
 				<AiOutlineFundProjectionScreen
 					onClick={() => handleClick('projects')}
 				/>
+			</a>
+			<a
+				href="#certificates"
+				className={activeNav === 'certificates' && 'active'}
+				onClick={() => handleClick('certificates')}
+			>
+				<BiBook />
 			</a>
 			<a
 				href="#contact"

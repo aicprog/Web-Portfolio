@@ -3,9 +3,9 @@ import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { IoLogoInstagram } from 'react-icons/io';
 
-const HeaderSocials = () => {
+const HeaderSocials = ({footer}) => {
 	return (
-		<div className="header-socials">
+		<div className={`${footer ? 'footer-socials': 'header-socials'}`}>
 			<a href="https://www.linkedin.com/in/acocom/" target="_blank">
 				<BsLinkedin />
 			</a>

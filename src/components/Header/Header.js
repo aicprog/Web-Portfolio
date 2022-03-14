@@ -14,11 +14,11 @@ const Header = () => {
 				<h5 className="text-light">Front End Web Developer</h5>
 				{/* buttons */}
 				<div className="cta">
-					<a href={resume} download>
-						<button className="btn">Download Resume</button>
+					<a href={resume} download className="btn btn-title">
+						Download Resume
 					</a>
-					<a href="#contact">
-						<button className="btn btn-primary">Let's Talk!</button>
+					<a href="#contact" className="btn btn-primary">
+						Let's Talk!
 					</a>
 				</div>
 				{/* img */}
@@ -29,7 +29,7 @@ const Header = () => {
 				<a href="#contact" className="scroll-down">
 					Scroll Down <VscFoldDown className="scroll-arrow" />
 				</a>
-				<HeaderSocials />
+				<HeaderSocials footer={false} />
 			</div>
 		</header>
 	);

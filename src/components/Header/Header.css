@@ -35,14 +35,14 @@ header {
 }
 
 .header-container .profile-img {
-	background: linear-gradient(var(--color-primary), transparent);
+	background: linear-gradient(var(--color-primary-variant-2), transparent);
 	width: 22rem;
 	height: 24.5rem;
 	position: absolute;
 	left: calc(50% - 11rem);
 	/* transform: translateX(-50%); */
 	margin-top: 4rem;
-	border-radius: 12rem 12rem 0 0;
+	border-radius: 2rem 2rem 0 0;
 	overflow: hidden;
 	padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
@@ -53,7 +53,7 @@ header {
 	bottom: 15rem;
 	transform: rotate(90deg);
 	font-weight: 300;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .scroll-arrow {
@@ -61,7 +61,6 @@ header {
 	width: 2rem;
 	padding-right: 4px;
 }
-
 
 /* Media Queries --- Medium */
 @media screen and (max-width: 1024px) {
@@ -82,7 +81,7 @@ header {
 	.header-socials {
 		flex-direction: row;
 		left: calc(50% - 5.5rem);
-		bottom: 8rem;
+		bottom: 7rem;
 		gap: 4rem;
 	}
 
