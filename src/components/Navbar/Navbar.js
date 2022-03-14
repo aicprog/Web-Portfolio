@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
-import { BiBook } from 'react-icons/bi';
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { FiAward } from 'react-icons/fi';
+import { AiOutlineProject } from 'react-icons/ai';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import { MdChecklistRtl } from 'react-icons/md';
 
@@ -59,16 +59,14 @@ const Navbar = () => {
 				<MdChecklistRtl />
 			</a>
 			<a href="#projects" className={activeNav === 'projects' ? 'active' : ''}>
-				<AiOutlineFundProjectionScreen
-					onClick={() => handleClick('projects')}
-				/>
+				<AiOutlineProject onClick={() => handleClick('projects')} />
 			</a>
 			<a
 				href="#certificates"
 				className={activeNav === 'certificates' ? 'active' : ''}
 				onClick={() => handleClick('certificates')}
 			>
-				<BiBook />
+				<FiAward />
 			</a>
 			<a
 				href="#contact"

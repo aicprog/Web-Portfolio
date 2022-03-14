@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import profile2 from '../../assets/profile2.jpg';
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
+import { BsListCheck } from 'react-icons/bs';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 import { VscFoldDown } from 'react-icons/vsc';
@@ -26,7 +26,7 @@ const About = () => {
 							<small>2 Years of learning and working on Front End. </small>
 						</article>
 						<article className="about-card">
-							<FaAward className="about-icon" />
+							<BsListCheck className="about-icon" />
 							<h5>Skillset</h5>
 							<small>
 								Worked with various Frameworks & Libraries

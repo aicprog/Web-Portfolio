@@ -24,7 +24,12 @@ const Projects = () => {
 								))}
 							</ul>
 							<div className="portfolio-item-cta">
-								<a href={project.source} className="btn">
+								<a
+									href={project.source}
+									className="btn"
+									target="_blank"
+									rel="noreferrer"
+								>
 									GitHub
 								</a>
 								<a
