@@ -56,6 +56,13 @@ textarea {
 	color: var(--color-white);
 }
 
+.contacted {
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 0.8rem;
+	color: var(--color-primary);
+}
+
 @supports (backdrop-filter: blur(15px)) {
 	input,
 	textarea {
@@ -63,4 +70,3 @@ textarea {
 		border-color: var(--color-primary-variant);
 	}
 }
-

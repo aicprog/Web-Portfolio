@@ -10,9 +10,9 @@ const Projects = () => {
 			<div className="container project-container">
 				{projectsList.map((project) => {
 					return (
-						<article className="project-item">
+						<article className="project-item" key={project.id}>
 							<div className="project-item-image">
-								<a href={project.visit} target="_blank">
+								<a href={project.visit} target="_blank" rel="noreferrer">
 									<img src={project.image} alt="project" />
 								</a>
 							</div>
@@ -31,6 +31,7 @@ const Projects = () => {
 									href={project.visit}
 									className="btn btn-primary"
 									target="_blank"
+									rel="noreferrer"
 								>
 									Website
 								</a>

@@ -39,40 +39,40 @@ const Navbar = () => {
 		<nav>
 			<a
 				href="#"
-				className={activeNav === '#' && 'active'}
+				className={activeNav === '#' ? 'active' : ''}
 				onClick={() => handleClick('#')}
 			>
 				<AiOutlineHome />
 			</a>
 			<a
 				href="#about"
-				className={activeNav === 'about' && 'active'}
+				className={activeNav === 'about' ? 'active' : ''}
 				onClick={() => handleClick('about')}
 			>
 				<AiOutlineUser />
 			</a>
 			<a
 				href="#experience"
-				className={activeNav === 'experience' && 'active'}
+				className={activeNav === 'experience' ? 'active' : ''}
 				onClick={() => handleClick('experience')}
 			>
 				<MdChecklistRtl />
 			</a>
-			<a href="#projects" className={activeNav === 'projects' && 'active'}>
+			<a href="#projects" className={activeNav === 'projects' ? 'active' : ''}>
 				<AiOutlineFundProjectionScreen
 					onClick={() => handleClick('projects')}
 				/>
 			</a>
 			<a
 				href="#certificates"
-				className={activeNav === 'certificates' && 'active'}
+				className={activeNav === 'certificates' ? 'active' : ''}
 				onClick={() => handleClick('certificates')}
 			>
 				<BiBook />
 			</a>
 			<a
 				href="#contact"
-				className={activeNav === 'contact' && 'active'}
+				className={activeNav === 'contact' ? 'active' : ''}
 				onClick={() => handleClick('contact')}
 			>
 				<BiMessageSquareDetail />

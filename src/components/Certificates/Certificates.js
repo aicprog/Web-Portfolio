@@ -29,7 +29,7 @@ const Certificates = () => {
 			>
 				{certificates.map((certificate) => {
 					return (
-						<SwiperSlide className="certificate">
+						<SwiperSlide className="certificate" key={certificate.id}>
 							<div className="certificate-image">
 								<a href={certificate.link} target="_blank">
 									<img src={certificate.image} alt="certificate 1" />

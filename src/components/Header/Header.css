@@ -37,14 +37,20 @@ header {
 .header-container .profile-img {
 	background: linear-gradient(var(--color-primary-variant-2), transparent);
 	width: 22rem;
-	height: 24.5rem;
+	height: 22.5rem;
 	position: absolute;
 	left: calc(50% - 11rem);
 	/* transform: translateX(-50%); */
-	margin-top: 4rem;
+	margin-top: 7rem;
 	border-radius: 2rem 2rem 0 0;
 	overflow: hidden;
-	padding: 4rem 1.5rem 1.5rem 1.5rem;
+	padding: 4.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.profile-img > img {
+	width: 16rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .scroll-down {
