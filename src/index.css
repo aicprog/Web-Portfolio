@@ -6,6 +6,7 @@ body {
 	background: var(--color-bg);
 	color: var(--color-white);
 	line-height: 1.7;
+	min-width: 375px;
 }
 
 * {
@@ -41,6 +42,7 @@ html {
 
 .container {
 	width: var(--container-width-lg);
+	min-width: 100wh;
 	margin: 0 auto;
 }
 
