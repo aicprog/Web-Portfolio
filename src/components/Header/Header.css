@@ -85,10 +85,7 @@ header {
 	}
 
 	.header-socials {
-		flex-direction: row;
-		left: calc(50% - 5.5rem);
-		bottom: 7rem;
-		gap: 4rem;
+		display: none;
 	}
 
 	.header-socials::after {
