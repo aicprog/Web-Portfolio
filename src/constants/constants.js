@@ -4,6 +4,7 @@ import astraClothing from '../assets/projects/astraClothing.png';
 import gitHubSearch from '../assets/projects/gitHubSearch.png';
 import netflix from '../assets/projects/netflix.png';
 import amazon from '../assets/projects/amazon.png';
+import typeandplay from '../assets/projects/typeandplay.png';
 
 //certificates
 import certificate1 from '../assets/certificates/certificate1.png';
@@ -11,34 +12,53 @@ import certificate2 from '../assets/certificates/certificate2.png';
 
 export const projectsList = [
 	{
+		title: 'Type & Play',
+		description:
+			'A simple yet fun typing game designed to enhance typing speed and accuracy. Uses airtable and Auth0 so users can save their high scores',
+		image: typeandplay,
+		tags: [
+			'React',
+			'Airtable',
+			'Styled Components',
+			'Theming',
+			'React Router',
+			'Auth0',
+			'Jsonwebtoken',
+			'Custom React Hooks',
+		],
+		source: 'https://github.com/aicprog/react-type-game',
+		visit: 'https://typeandplay.netlify.app/',
+		id: 0,
+	},
+	{
 		title: 'Comfort Depo',
 		description:
-			'Using React, Styled Components, and Stripe for a responsive and mobile-friendly e-commerce home improvement website.',
+			'A responsive and mobile-friendly e-commerce home improvement website.',
 		image: comfortDepo,
 		tags: ['React', 'Stripe', 'Firebase', 'Smooth Scroll', 'Styled-Components'],
 		source: 'https://github.com/aicprog/React-Ecommerce-Comfort-Depo',
 		visit: 'https://comfort-depo.netlify.app/',
-		id: 0,
+		id: 2,
 	},
 	{
 		title: 'Astra Clothing',
 		description:
-			'Using React, Redux, Sass, and Stripe for a e-commerce clothing website that is responsive and mobile-friendly. ',
+			'E-commerce clothing website build on using React, Redux, Sass, and Stripe.',
 		image: astraClothing,
 		tags: ['React', 'Redux', 'SASS', 'Styled Components', 'Firebase'],
 		source: 'https://github.com/aicprog/React-Ecommerce-Astra-Clothing',
 		visit: 'https://astra-clothing.netlify.app/',
-		id: 1,
+		id: 3,
 	},
 	{
 		title: 'Netflix Clone',
 		description:
-			'Using React, Styled Components and the TBDB API in order to recreate the Netflix Website. ',
+			'Ues the TBDB API with over 10,000 items in order to recreate the Netflix Website. ',
 		image: netflix,
 		tags: ['React', 'Styled Components', 'TBDB API', 'Axios'],
 		source: 'https://github.com/aicprog/Netflix-Clone',
 		visit: 'https://netflix-clone-web-app.netlify.app/',
-		id: 2,
+		id: 4,
 	},
 	{
 		title: 'Amazon Clone',
@@ -48,7 +68,7 @@ export const projectsList = [
 		tags: ['React', 'CSS', 'Firebase', 'FakeStoreAPI'],
 		source: 'https://github.com/aicprog/Amazon-Clone',
 		visit: 'https://amazon-clone-ws.netlify.app/',
-		id: 3,
+		id: 5,
 	},
 	{
 		title: 'GitHub Search Analyzer ',
@@ -58,7 +78,7 @@ export const projectsList = [
 		tags: ['React', 'GitHub API', 'FusionCharts API'],
 		source: 'https://github.com/aicprog/React-GitHub-Search',
 		visit: 'https://gthub-search.netlify.app/',
-		id: 4,
+		id: 6,
 	},
 
 	{
@@ -69,7 +89,7 @@ export const projectsList = [
 		tags: ['Gatsby', 'Styled Components', 'GraphQL'],
 		source: 'https://github.com/aicprog/Gatsby-Travel-Website/tree/master',
 		visit: 'https://aicprog.github.io/Gatsby-Travel-Website/',
-		id: 5,
+		id: 7,
 	},
 ];
 

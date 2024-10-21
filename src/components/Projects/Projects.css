@@ -39,6 +39,11 @@
 	margin: 1.2rem 0 2rem;
 }
 
+.project-description {
+	margin: 2rem 0 2.6rem;
+	color: var(--color-light);
+}
+
 .break {
 	margin: 30px 0;
 	height: 1px;

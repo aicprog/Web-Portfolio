@@ -20,56 +20,62 @@ const Experience = () => {
 							<DiHtml5 className="experience-details-icon" />
 							<div>
 								<h4>HTML5</h4>
-								
 							</div>
 						</article>
 						<article className="experience-details">
 							<DiCss3 className="experience-details-icon" />
 							<div>
 								<h4>CSS3</h4>
-								
 							</div>
 						</article>
 						<article className="experience-details">
 							<IoLogoJavascript className="experience-details-icon" />
 							<div>
 								<h4>Javascript</h4>
-								
 							</div>
 						</article>
 						<article className="experience-details">
 							<DiReact className="experience-details-icon" />
 							<div>
 								<h4>ReactJS</h4>
-								
+							</div>
+						</article>
+						<article className="experience-details">
+							<DiReact className="experience-details-icon" />
+							<div>
+								<h4>NextJS</h4>
 							</div>
 						</article>
 						<article className="experience-details">
 							<CgStyle className="experience-details-icon" />
 							<div>
-								<h4>Styled <br/> Components</h4>
-								
+								<h4>
+									Styled <br /> Components
+								</h4>
 							</div>
 						</article>
 						<article className="experience-details">
 							<BsBootstrap className="experience-details-icon" />
 							<div>
 								<h4>BootStrap</h4>
-								
 							</div>
 						</article>
 						<article className="experience-details">
 							<SiTailwindcss className="experience-details-icon" />
 							<div>
 								<h4>Tailwind CSS</h4>
-								
+							</div>
+						</article>
+						<article className="experience-details">
+							<SiRedux className="experience-details-icon" />
+							<div>
+								<h4>Jest</h4>
 							</div>
 						</article>
 						<article className="experience-details">
 							<SiRedux className="experience-details-icon" />
 							<div>
 								<h4>Redux</h4>
-								
 							</div>
 						</article>
 					</div>

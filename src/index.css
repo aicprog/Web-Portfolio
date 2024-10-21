@@ -97,6 +97,7 @@ a:hover {
 	cursor: pointer;
 	border: 1px solid var(--color-primary);
 	transition: var(--transition);
+	margin: auto;
 }
 
 .btn:hover {
@@ -108,6 +109,11 @@ a:hover {
 .btn-primary {
 	background: var(--color-primary);
 	color: var(--color-white);
+}
+
+.btn-sm {
+	padding: 0.2rem 0.6rem;
+	margin: 1rem;
 }
 
 img {

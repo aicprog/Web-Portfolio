@@ -17,6 +17,7 @@ const Projects = () => {
 								</a>
 							</div>
 							<h3 className="project-title">{project.title}</h3>
+							<p className='project-description'>{project.description}</p>
 							<hr className="break" />
 							<ul className="project-tag-list">
 								{project.tags.map((tag, i) => (

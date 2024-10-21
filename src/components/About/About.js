@@ -1,11 +1,13 @@
 import React from 'react';
 import './About.css';
-import profile2 from '../../assets/profile2.jpg';
+import profile2 from '../../assets/aboutme.jpg';
 import { FaAward } from 'react-icons/fa';
 import { BsListCheck } from 'react-icons/bs';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { VscDebugBreakpointDataUnverified } from 'react-icons/vsc';
 import { VscFoldDown } from 'react-icons/vsc';
+import { IoIosReturnRight } from 'react-icons/io';
+import resume from '../../assets/resume.pdf';
 
 const About = () => {
 	return (
@@ -23,29 +25,115 @@ const About = () => {
 						<article className="about-card">
 							<FaAward className="about-icon" />
 							<h5>Experience</h5>
-							<small>with HTML5, CSS3, and Javascript </small>
+							<div className="about-card-content">
+								<small>
+									<p className="about-card-point">
+										TimeDoc Health (06/2022 - 07/2022)
+									</p>
+									<ul className="bulletpoint-list">
+										<li>
+											<VscDebugBreakpointDataUnverified /> Remote Software
+											Engineer
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> Worked with React,
+											CoffeeScript/Hamlc, SASS, Cypress, JEST
+										</li>
+									</ul>
+									<p className="about-card-point">
+										LA Metro (11/2019 - 04/2021)
+									</p>
+									<ul className="bulletpoint-list">
+										<li>
+											<VscDebugBreakpointDataUnverified /> Administrative Intern
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> Facilitated the
+											workload of 10 electrical/mechanical engineers by
+											compiling information from image files, decreasing search
+											time by 90%
+										</li>
+									</ul>
+								</small>
+							</div>
+							<div></div>
+							<a href={resume} download className="btn btn-sm">
+								<IoIosReturnRight />
+								Full Resume
+							</a>
 						</article>
 						<article className="about-card">
 							<BsListCheck className="about-icon" />
 							<h5>Skillset</h5>
 							<small>
-								Worked with various Frameworks & Libraries
-								<ul className="skillset-list">
-									<li>
-										<VscDebugBreakpointDataUnverified /> ReactJS
-									</li>
-									<li>
-										<VscDebugBreakpointDataUnverified />
-										BootStrap
-									</li>
-									<li>
-										<VscDebugBreakpointDataUnverified /> Styled Components
-									</li>
-									<li>
-										<VscDebugBreakpointDataUnverified />
-										TailwindCSS
-									</li>
-								</ul>
+								<div className="about-card-content">
+									<p className="about-card-point">Languages </p>
+									<ul className="bulletpoint-list">
+										<li>
+											<VscDebugBreakpointDataUnverified /> HTML
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											CSS
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> JS
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											SASS
+										</li>
+									</ul>
+								</div>
+							</small>
+							<small>
+								<div className="about-card-content">
+									<p className="about-card-point">Frameworks & Libraries</p>
+									<ul className="bulletpoint-list">
+										<li>
+											<VscDebugBreakpointDataUnverified /> ReactJS
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> NextJS
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											BootStrap
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> Styled Components
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											TailwindCSS
+										</li>
+									</ul>
+								</div>
+							</small>
+							<small>
+								<div className="about-card-content">
+									<p className="about-card-point">Tools</p>
+									<ul className="bulletpoint-list">
+										<li>
+											<VscDebugBreakpointDataUnverified /> Git / GitHub
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											Bitbucket
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified /> Zendesk
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											Sentry
+										</li>
+										<li>
+											<VscDebugBreakpointDataUnverified />
+											JIRA
+										</li>
+									</ul>
+								</div>
 							</small>
 						</article>
 						<article className="about-card">
