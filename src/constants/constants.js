@@ -57,7 +57,7 @@ export const projectsList = [
 		image: netflix,
 		tags: ['React', 'Styled Components', 'TBDB API', 'Axios'],
 		source: 'https://github.com/aicprog/Netflix-Clone',
-		visit: 'https://netflix-clone-web-app.netlify.app/',
+		visit: 'https://netflex-clone-web-app.netlify.app/',
 		id: 4,
 	},
 	{
