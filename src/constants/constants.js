@@ -38,6 +38,16 @@ export const projectsList = [
 		tags: ['React', 'Stripe', 'Firebase', 'Smooth Scroll', 'Styled-Components'],
 		source: 'https://github.com/aicprog/React-Ecommerce-Comfort-Depo',
 		visit: 'https://comfort-depo.netlify.app/',
+		id: 1,
+	},
+	{
+		title: 'Netflix Clone',
+		description:
+			'Ues the TBDB API with over 10,000 items in order to recreate the Netflix Website. ',
+		image: netflix,
+		tags: ['React', 'Styled Components', 'TBDB API', 'Axios'],
+		source: 'https://github.com/aicprog/Netflix-Clone',
+		visit: 'https://netflex-clone-web-app.netlify.app/',
 		id: 2,
 	},
 	{
@@ -51,16 +61,6 @@ export const projectsList = [
 		id: 3,
 	},
 	{
-		title: 'Netflix Clone',
-		description:
-			'Ues the TBDB API with over 10,000 items in order to recreate the Netflix Website. ',
-		image: netflix,
-		tags: ['React', 'Styled Components', 'TBDB API', 'Axios'],
-		source: 'https://github.com/aicprog/Netflix-Clone',
-		visit: 'https://netflex-clone-web-app.netlify.app/',
-		id: 4,
-	},
-	{
 		title: 'Amazon Clone',
 		description:
 			'Using React, Redux, Sass, and Stripe for a e-commerce clothing website that is responsive and mobile-friendly. ',
@@ -68,7 +68,7 @@ export const projectsList = [
 		tags: ['React', 'CSS', 'Firebase', 'FakeStoreAPI'],
 		source: 'https://github.com/aicprog/Amazon-Clone',
 		visit: 'https://amazon-clone-ws.netlify.app/',
-		id: 5,
+		id: 4,
 	},
 	{
 		title: 'GitHub Search Analyzer ',
@@ -78,7 +78,7 @@ export const projectsList = [
 		tags: ['React', 'GitHub API', 'FusionCharts API'],
 		source: 'https://github.com/aicprog/React-GitHub-Search',
 		visit: 'https://gthub-search.netlify.app/',
-		id: 6,
+		id: 5,
 	},
 
 	{
